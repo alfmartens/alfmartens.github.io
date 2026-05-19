@@ -1,0 +1,42 @@
+html {
+  /* px means "pixels". The base font size is now 10 pixels high */
+  font-size: 10px;
+  font-family: "Playfair Display";
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #5654d982;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ffab00;
+  padding: 0 20px 20px 20px;
+  border:  20px ridge rgba(74, 39, 188, 0.516);
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #5654d982;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
