@@ -16,39 +16,26 @@ items.forEach(item => {
         else if (item.textContent == "Smedslätten") {
             myImage.setAttribute("src", "images/Smedslatten_2008c.jpg");
             myHeading.textContent = "Smedslätten";
-            myParagraph.textContent = "After Äppelviken, the next stop when you go by Nockebybanan from Alvik is Smedslätten.";
+            myParagraph.textContent = "After Äppelviken, the next stop when you go by Nockebybanan from Alvik is Smedslätten. " +
+                                      "This district was built mostly during the 1920s.";
         }
         else if (item.textContent == "Ålsten") {
             myImage.setAttribute("src", "images/Alsten_4.jpg");
             myHeading.textContent = "Ålsten";
             myParagraph.textContent = "West of Smedslätten is Ålsten, famous for its townhouses, the so called Per-Albin houses, " +
-                                      "named after a former Swedish prime minister that lived in one of these.";
+                                      "named after a former Swedish prime minister that lived in one of these. They were built from 1932 to 1933.";
         }
         else if (item.textContent == "Höglandet") {
             myImage.setAttribute("src", "images/Hoglandet_1.jpg");
             myHeading.textContent = "Höglandet";
-            myParagraph.textContent = "The next stop after Ålsten is Höglandet.";
+            myParagraph.textContent = "The next stop after Ålsten is Höglandet. This district was mostly built during the 1920s and 1930s. " +
+                                      "It is the smallest of the five districts, both in terms of population and area.";
         }
         else if (item.textContent == "Nockeby") {
             myImage.setAttribute("src", "images/Nockeby_2010b.jpg");
             myHeading.textContent = "Nockeby";
-            myParagraph.textContent = "The last stop of Nockebybanan when you travel from Alvik is Nockeby itself.";
+            myParagraph.textContent = "The last stop of Nockebybanan when you travel from Alvik is Nockeby itself. " +
+                                      "This district was mostly built during the 1930s.";
         }
     })
 })
-
-/* myImage.addEventListener("click", () => {
-  const mySrc = myImage.getAttribute("src");
-  if (mySrc === "images/Gamla_Årstabron,_april_2020.jpg") {
-    myImage.setAttribute("src", "images/Nya-Årstabron-2012.jpeg");
-    myList.innerHTML = '<li>' + 'Den nya, västra Årstabron som syns på bilden' + '</li>' + 
-                       '<li>' + 'Den gamla, östra Årstabron som saknas på bilden' + '</li>'
-    myHeading.textContent = 'Nya Årstabron'
-  } else {
-    myList.innerHTML = '<li>' + 'Den gamla, östra Årstabron som syns i förgrunden på bilden' + '</li>' + 
-                       '<li>' + 'Den nya, västra Årstabron som skymtas i bakgrunden på bilden' + '</li>'
-
-    myImage.setAttribute("src", "images/Gamla_Årstabron,_april_2020.jpg");
-    myHeading.textContent = 'Gamla Årstabron'
-  }
-}); */
