@@ -23,7 +23,8 @@ items.forEach(item => {
             myImage.setAttribute("src", "images/Alsten_4.jpg");
             myHeading.textContent = "Ålsten";
             myParagraph.textContent = "West of Smedslätten is Ålsten, famous for its townhouses, the so called Per-Albin houses, " +
-                                      "named after a former Swedish prime minister that lived in one of these. They were built from 1932 to 1933.";
+                                      "named after a former Swedish prime minister that lived in one of these. They were built from 1932 to 1933. " +
+                                      "Detached villas were also built in Ålsten, mostly during the 1920s and 1930s.";
         }
         else if (item.textContent == "Höglandet") {
             myImage.setAttribute("src", "images/Hoglandet_1.jpg");
