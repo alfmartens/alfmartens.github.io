@@ -12,7 +12,8 @@ items.forEach(item => {
             myHeading.textContent = "Äppelviken";
             myParagraph.textContent = "When you go by Nockebybanan from Alvik, you'll first arrive at Äppelviken. " +
                                       "Äppelviken was mostly built during the 1910s and 1920s, and was the earliest built of the five districts. " +
-                                      "The houses are often in the National Romantic style or 1920s classicism.";
+                                      "In the eastern part of the area, houses were built in the 1910s in the National Romantic style. In the western part, " + 
+                                      "which was built later, greater uniformity was sought and the houses were built in the 1920s Classicist style.";
         }
         else if (item.textContent == "Smedslätten") {
             myImage.src = "images/Smedslatten_2008c.jpg";
