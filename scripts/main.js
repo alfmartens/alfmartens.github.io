@@ -20,13 +20,16 @@ items.forEach(item => {
             myImage.alt = "View of Smedslätten";
            myHeading.textContent = "Smedslätten";
             myParagraph.textContent = "After Äppelviken, the next stop when you go by Nockebybanan from Alvik is Smedslätten. " +
-                                      "This district was built mostly during the 1920s.";
+                                      "This is a very attractive district that gives the impression of a small town idyll from " + 
+                                      "the early 1920s with villas in lush gardens and with shops and a tram stop at the square. " +
+                                      "Most of the houses from the early 1920s are built in 1 1/2 floors and often have decorative bay windows. " +
+                                      "Near Lake Mälaren, 83 terraced houses of a very high standard were also built in the early 1960s.";
         }
         else if (item.textContent == "Ålsten") {
             myImage.src = "images/Alsten_4.jpg";
             myImage.alt = "View of Ålsten";
             myHeading.textContent = "Ålsten";
-            myParagraph.textContent = "West of Smedslätten is Ålsten, famous for its townhouses, the so called Per-Albin houses, " +
+            myParagraph.textContent = "West of Smedslätten is Ålsten, famous for its terraced houses, the so called Per-Albin houses, " +
                                       "named after a former Swedish prime minister that lived in one of these. They were built from 1932 to 1933. " +
                                       "Detached villas were also built in Ålsten, mostly during the 1920s and 1930s.";
         }
