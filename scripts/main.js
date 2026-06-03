@@ -46,7 +46,8 @@ items.forEach(item => {
             myImage.alt = "View of Nockeby";
             myHeading.textContent = "Nockeby";
             myParagraph.textContent = "The last stop of Nockebybanan when you travel from Alvik is Nockeby itself. " +
-                                      "Nockeby's villas are very uniformly designed, with two-story houses with gable roofs. All were built between 1929 and 1933.";
+                                      "Nockeby's detached housing is very uniformly designed, with two-story houses with gable roofs. " +
+                                      "All were built between 1929 and 1933.";
         }
     })
 })
