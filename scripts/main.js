@@ -23,7 +23,7 @@ items.forEach(item => {
                                       "This is a very attractive district that gives the impression of a small town idyll from " + 
                                       "the early 1920s with villas in lush gardens and with shops and a tram stop at the square. " +
                                       "Most of the houses from the early 1920s are built in 1 1/2 floors and often have decorative bay windows. " +
-                                      "Near Lake Mälaren, 83 terraced houses of a very high standard were also built in the early 1960s.";
+                                      "Near Lake Mälaren, 83 terraced houses of a very high standard were built much later, in the early 1960s.";
         }
         else if (item.textContent == "Ålsten") {
             myImage.src = "images/Alsten_4.jpg";
@@ -38,14 +38,15 @@ items.forEach(item => {
             myImage.alt = "View of Höglandet";
             myHeading.textContent = "Höglandet";
             myParagraph.textContent = "The next stop after Ålsten is Höglandet. This district was mostly built during the 1920s and 1930s. " +
-                                      "It is the smallest of the five districts, both in terms of population and area.";
+                                      "It is the smallest of the five districts, both in terms of population and area. " +
+                                      "The district's name comes from its highland location.";
         }
         else if (item.textContent == "Nockeby") {
             myImage.src = "images/Nockeby_2010b.jpg";
             myImage.alt = "View of Nockeby";
             myHeading.textContent = "Nockeby";
             myParagraph.textContent = "The last stop of Nockebybanan when you travel from Alvik is Nockeby itself. " +
-                                      "This district was mostly built during the 1930s.";
+                                      "Nockeby's villas are very uniformly designed, with two-story houses with gable roofs. All were built between 1929 and 1933.";
         }
     })
 })
