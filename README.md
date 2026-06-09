@@ -1,1 +1,1 @@
-This is just a simple web page I created in order to learn HTML, CSS and Javascript.
+A simple website I created to practice HTML, CSS and javascript, and where I describe the five attractive districts in western Stockholm that are part of "Bromma Trädgårdsstad".
