@@ -1,1 +1,1 @@
-A simple web page I created to practice HTML, CSS and javascript, and where I describe the five attractive districts in western Stockholm that are part of "Bromma Trädgårdsstad".
+A simple web site I created to practice HTML, CSS and javascript, and where I describe the five attractive districts in western Stockholm that are part of "Bromma Trädgårdsstad".
