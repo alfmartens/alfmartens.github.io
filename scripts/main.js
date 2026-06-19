@@ -7,7 +7,7 @@ const myParagraph = document.getElementById("changingParagraph")
 items.forEach(item => {
     item.addEventListener("click", () => {
         if (item.textContent == "Äppelviken") {
-            myImage.src = "images/Äppelviken,_Snäckvägen_22,_2012.jpg";
+            myImage.src = "images/Appelviken,_Snackvägen_22,_2012.jpg";
             myImage.alt = "View of Äppelviken";
             myHeading.textContent = "Äppelviken";
             myParagraph.textContent = "When you go by Nockebybanan from Alvik, you'll first arrive at Äppelviken. " +
