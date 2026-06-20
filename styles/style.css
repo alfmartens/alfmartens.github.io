@@ -64,3 +64,12 @@ nav li {
 nav li:active {
   background: blue;
 }
+
+nav li button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
