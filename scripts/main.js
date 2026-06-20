@@ -1,12 +1,12 @@
 const myImage = document.querySelector("img");
-let myHeading = document.querySelector("h1");
-const items = document.querySelectorAll("#myList li");
+const myHeading = document.querySelector("h1");
+const items = document.querySelectorAll("#ListOfAreas li button");
 
 const myParagraph = document.getElementById("changingParagraph")
 
 items.forEach(item => {
     item.addEventListener("click", () => {
-        if (item.textContent == "Äppelviken") {
+        if (item.getAttribute("id") == "Äppelviken") {
             myImage.src = "images/Appelviken,_Snackvagen_22,_2012.jpg";
             myImage.alt = "View of Äppelviken";
             myHeading.textContent = "Äppelviken";
@@ -15,7 +15,7 @@ items.forEach(item => {
                                       "In the eastern part of the area, houses were built in the 1910s in the National Romantic style. In the western part, " + 
                                       "which was built later, greater uniformity was sought and the houses were built in the 1920s Classicist style.";
         }
-        else if (item.textContent == "Smedslätten") {
+        else if (item.getAttribute("id") == "Smedslätten") {
             myImage.src = "images/Smedslatten_2008c.jpg";
             myImage.alt = "View of Smedslätten";
            myHeading.textContent = "Smedslätten";
@@ -25,7 +25,7 @@ items.forEach(item => {
                                       "Most of the houses from the early 1920s are built in 1 1/2 floors and often have decorative bay windows. " +
                                       "Near Lake Mälaren, 83 terraced houses of a very high standard were built much later, in the early 1960s.";
         }
-        else if (item.textContent == "Ålsten") {
+        else if (item.getAttribute("id") == "Ålsten") {
             myImage.src = "images/Alsten_4.jpg";
             myImage.alt = "View of Ålsten";
             myHeading.textContent = "Ålsten";
@@ -33,7 +33,7 @@ items.forEach(item => {
                                       "named after a former Swedish prime minister that lived in one of these. They were built from 1932 to 1933. " +
                                       "Detached villas were also built in Ålsten, mostly during the 1920s and 1930s.";
         }
-        else if (item.textContent == "Höglandet") {
+        else if (item.getAttribute("id") == "Höglandet") {
             myImage.src = "images/Hoglandet_1.jpg";
             myImage.alt = "View of Höglandet";
             myHeading.textContent = "Höglandet";
@@ -41,7 +41,7 @@ items.forEach(item => {
                                       "It is the smallest of the five districts, both in terms of population and area. " +
                                       "The district's name comes from its highland location.";
         }
-        else if (item.textContent == "Nockeby") {
+        else if (item.getAttribute("id") == "Nockeby") {
             myImage.src = "images/Nockeby_2010b.jpg";
             myImage.alt = "View of Nockeby";
             myHeading.textContent = "Nockeby";
