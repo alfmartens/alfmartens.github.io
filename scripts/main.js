@@ -1,8 +1,10 @@
-const myImage = document.querySelector("img");
+// const myImage = document.querySelector("img");
 const myHeading = document.querySelector("h1");
 const items = document.querySelectorAll("#ListOfAreas li button");
 
-const myParagraph = document.getElementById("changingParagraph")
+const myParagraph = document.getElementById("changingParagraph");
+const myImage = document.getElementById("changingImage");
+const myFooter = document.getElementById("changingFooter");
 
 items.forEach(item => {
     item.addEventListener("click", () => {
@@ -14,16 +16,18 @@ items.forEach(item => {
                                       "Äppelviken was mostly built during the 1910s and 1920s, and was the earliest built of the five districts. " +
                                       "In the eastern part of the area, houses were built in the 1910s in the National Romantic style. In the western part, " + 
                                       "which was built later, greater uniformity was sought and the houses were built in the 1920s Classicist style.";
+            myFooter.innerHTML = '<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This image was published by <a href="https://commons.wikimedia.org/wiki/User:Bysmon">Bysmon</a> under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a> license.';
         }
         else if (item.getAttribute("id") == "Smedslätten") {
             myImage.src = "images/Smedslatten_2008c.jpg";
             myImage.alt = "View of Smedslätten";
-           myHeading.textContent = "Smedslätten";
+            myHeading.textContent = "Smedslätten";
             myParagraph.textContent = "After Äppelviken, the next stop when you go by Nockebybanan from Alvik is Smedslätten. " +
                                       "This is a very attractive district that gives the impression of a small town idyll from " + 
                                       "the early 1920s with villas in lush gardens and with shops and a tram stop at the square. " +
                                       "Most of the houses from the early 1920s are built in 1 1/2 floors and often have decorative bay windows. " +
                                       "Near Lake Mälaren, 83 terraced houses of a very high standard were built much later, in the early 1960s.";
+            myFooter.innerHTML = '<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This image was published by <a href="https://commons.wikimedia.org/wiki/User:Holger.Ellgaard">Holger.Ellgaard</a> under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a> license.';
         }
         else if (item.getAttribute("id") == "Ålsten") {
             myImage.src = "images/Alsten_4.jpg";
@@ -32,6 +36,7 @@ items.forEach(item => {
             myParagraph.textContent = "West of Smedslätten is Ålsten, famous for its terraced houses, the so called Per-Albin houses, " +
                                       "named after a former Swedish prime minister that lived in one of these. They were built from 1932 to 1933. " +
                                       "Detached villas were also built in Ålsten, mostly during the 1920s and 1930s.";
+            myFooter.innerHTML = '<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This image was published by <a href="https://commons.wikimedia.org/wiki/User:Holger.Ellgaard">Holger.Ellgaard</a> under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a> license.';
         }
         else if (item.getAttribute("id") == "Höglandet") {
             myImage.src = "images/Hoglandet_1.jpg";
@@ -40,6 +45,7 @@ items.forEach(item => {
             myParagraph.textContent = "The next stop after Ålsten is Höglandet. This district was mostly built during the 1920s and 1930s. " +
                                       "It is the smallest of the five districts, both in terms of population and area. " +
                                       "The district's name comes from its highland location.";
+            myFooter.innerHTML = '<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This image was published by <a href="https://commons.wikimedia.org/wiki/User:Holger.Ellgaard">Holger.Ellgaard</a> under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a> license.';
         }
         else if (item.getAttribute("id") == "Nockeby") {
             myImage.src = "images/Nockeby_2010b.jpg";
@@ -48,6 +54,7 @@ items.forEach(item => {
             myParagraph.textContent = "The last stop of Nockebybanan when you travel from Alvik is Nockeby itself. " +
                                       "Nockeby's detached housing is very uniformly designed, with two-story houses with gable roofs. " +
                                       "All were built between 1929 and 1933.";
+            myFooter.innerHTML = '<a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br />This image was published by <a href="https://commons.wikimedia.org/wiki/User:Holger.Ellgaard">Holger.Ellgaard</a> under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/deed.en">Creative Commons Attribution-Share Alike 3.0 Unported</a> license.';
         }
     })
 })
