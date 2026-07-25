@@ -1,5 +1,4 @@
 html {
-  /* px means "pixels". The base font size is now 10 pixels high */
   font-size: 10px;
   font-family: "Playfair Display";
 }
@@ -26,6 +25,7 @@ body {
   background-color: #ffab00;
   padding: 0 20px 20px 20px;
   border:  20px ridge rgb(74 39 188);
+  border-radius: 20px;
 }
 
 h1 {
